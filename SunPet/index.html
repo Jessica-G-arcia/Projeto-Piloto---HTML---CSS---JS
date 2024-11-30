@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style_home.css">
+    <link rel="shortcut icon" href="./img/favicon/favicon_sunpet.png" type="image/x-icon">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <title>SunPet</title>
+</head>
+<body>
+    <header id="header">
+        <a id="logo" href="./index.html"><img id="logo" src="./img/logo_sunpet.png" alt=""></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="./index.html">Home</a></li>
+                <li><a class="linkMenu" href="#">Quem somos</a></li>
+                <li><a class="linkMenu" href="#">Produtos</a></li>
+                <li><a class="linkMenu" href="#">Contato</a></li>
+                <li><a class="linkMenu" href="#">#Blog</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Início carrossel -->
+    <div class="container-carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./img/gato_aviador.jpeg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/gato_quadrado.jpeg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/cachorro_aviador.jpeg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/cachorro_redondo.jpeg" class="d-block w-100" alt="">
+                </div>
+            </div>
+            
+            <!-- Controle do carrossel -->
+            <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            
+            <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </div> 
+   
+    <!-- Fim do carrossel -->
+
+    <!-- Início banner -->
+     <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/gato_redondo.jpeg" alt="Banner Home">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="texto-banner d-none d-md-block">
+                        <h1>Conheça o mais novo lançamento da SunPet!</h1>
+                        <p class="d-none d-md-block">
+                            Óculos de Sol - Gato John, no melhor do estilo <i><b>Beatles.</b></i>
+                        </p>
+                        <a href="#">Saiba mais!</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- Fim banner -->
+     <!-- Início destaque -->
+     <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!-- Início tag section do texto destaque -->
+                 <section class="col-12">
+                    <h2>Coleções de Óculos de Sol do Verão!</h2>
+                    <p>Venha conferir todos os nossos produtos, o seu pet no estilo com SunPet!</p>
+                 </section>
+                 <!-- Fim da section do texto destaque -->
+                    <!-- Início imagem 1 -->
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./img/gato_redondoq.png" alt="A arte de cozinhar"></a>
+                                <figcaption>Lançamento em breve! <br> R$129,90</figcaption>
+                            </figure>
+                        </div>
+                    <!-- Fim imagem 1 -->
+                    <!-- Início imagem 2 -->
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./img/cachorro_redondoq.png" alt="Cozinha Rápida"></a>
+                                <figcaption>Dog John <br> R$129,90</figcaption>
+                            </figure>
+                        </div>
+                    <!-- Fim imagem 2 --> 
+                    <!-- Início imagem 3 -->
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./img/gato_aviadorq.png" alt="Culinária Internacional"></a>
+                                <figcaption>Cat Dumont <br> R$129,90</figcaption>
+                            </figure>
+                        </div>
+                    <!-- Fim imagem 3 -->
+                    <!-- Início imagem 4 -->
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./img/cachorro_aviadorq.png" alt="Massas Italianas"></a>
+                                <figcaption>Dog Dumont <br> R$129,90</figcaption>
+                            </figure>
+                        </div>
+                    <!-- Fim imagem 4 -->
+                    <!-- Início imagem 5 -->
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./img/gato_quadradoq.png" alt="Sobremesas"></a>
+                                <figcaption>Cat Bey <br> R$129,90</figcaption>
+                            </figure>
+                        </div>
+                    <!-- Fim imagem 5 -->    
+                    <!-- Início imagem 6 -->
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./img/cachorro_quadradoq.png" alt="Sobremesas de luxo"></a>
+                                <figcaption>Dog Bey <br> R$129,90</figcaption>
+                            </figure>
+                        </div>
+                    <!-- Fim imagem 6 -->    
+                    <!-- Início Saiba Mais -->
+                     <div class="col-12 d-flex justify-content-center">
+                        <a id="saiba-mais" href="#">Saiba mais!</a>
+                     </div>
+                    <!-- Fim Saiba Mais -->
+            </div>
+        </div>
+     </div>
+     <!-- Fim destaque -->
+     <!-- Início novidades  -->
+      <div class="novidades" id="novidades-mobile">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Início texto novidades -->
+                    <section class="text-body">
+                        <h2>Conheça nossas novidades</h2>
+                        <p>Boné SunPet, a proteção ideal para um dia ensolarado! <br> Seu fiel companheiro com a visão protegida, para um passeio repleto de diversão e com proteção!</p>
+                        <!-- target="_blank" -->
+                        <a href="#" class="btn-banner" target="_blank">Saiba mais!</a>
+                    </section>
+                    <!-- Fim texto novidades --> 
+                </div>
+                <!-- Início imagem novidades -->
+                <div class="col-md-6">
+                    <figure>
+                        <img class="img-fluid"  src="./img/cachorro_bone.png" alt="">
+                    </figure>
+                </div>
+                <!-- Fim imagem novidades -->
+            </div>
+        </div>
+      </div>
+     <!-- Fim novidades  -->
+     <!-- Início galeria -->
+      <div class="galeri ad-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <!-- Início texto galeria -->
+                 <div class="col-12">
+                    <section class="texto-galeria">
+                        <h2>Conheça nossos produtos</h2>
+                        <p>Aqui pensamos em tudo para que o seu companheiro possa curtir um passeio em família com segurança, e é claro...MUITO ESTILO!</p>
+                    </section>
+                 </div>
+                <!-- Fim texto galeria -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/gato_aviadorq.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                 <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/gato_quadradoq.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/gato_redondoq.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/gato_quadrado1.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/cachorro_aviador1.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/cachorro_redondoq.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/cachorro_aviadorq.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/cachorro_quadradoq.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/gato_bone.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/cachorro_bone.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/gato_bone1.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+                <!-- Início imagem galeria  -->
+                 <div class="gallery col-6 col-md-3">
+                    <img class="img-fluid" src="./img/cachorro _bone1.png" alt="">
+                 </div>
+                <!-- Fim imagem galeria  -->
+            </div>
+        </div>
+      </div>
+     <!-- Fim galeria -->
+     <!-- Início WhatsApp  -->
+      <div class="whatsapp">
+        <div class="container-grid logo-whats">
+            <a href="https://wa.me/5515981385197?text=Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20SunPet!" target="_blank">
+                <img class="pulse" src="./img/icone-whatsapp.png" alt="Entre em contato pelo whatsapp">
+            </a>
+        </div>
+      </div>
+     <!-- Fim WhatsApp  -->
+     <!-- Início rodapé  -->
+      <footer class="rodape">
+        <div class="container">
+            <div class="row m-0">
+                <!-- Início Logo -->
+                 <div class="col-md-4" id="logo-rodape">
+                    <figure>
+                        <img src="./img/logo_sunpet.png" id="img-logo" alt="logo rodape">
+                    </figure>
+                 </div>
+                <!-- Fim Logo -->
+                <!-- Início texto contato -->
+                 <div class="col-md-4">
+                    <div class="info-contato">
+                        <p><strong>E-mail:</strong></p>
+                        <p>contato@sunpet.com</p><br>
+                        <p><strong>Endereço:</strong></p>
+                        <p>Rua Amado Batista, 15 - Bela Montanha - Matodentro/SP</p><br>
+                        <p><strong>Telefone:</strong></p>
+                        <p>+55 (15) 3233-5543</p>
+                    </div>
+                 </div>
+                <!-- Fim texto contato -->
+                <!-- Início redes sociais  -->
+                 <div class="col-md-4">
+                    <figure class="redes-sociais">
+                        <a href="https://www.instagram.com" target="_blank"><img src="./img/icon_instagram.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com" target="_blank"><img src="./img/icone_facebbok.png" alt="facebook"></a>
+                        <a href="https://www.youtube.com" target="_blank"><img src="./img/icone-gmail.png" alt="youtube"></a>
+                        <a href="https://www.linkedin.com" target="_blank"><img src="./img/icone-linkedin.png" alt="linkedin"></a>
+                    </figure>
+                    <br>
+                    <a class="linkFooter" href="#">Home</a>
+                    <a class="linkFooter" href="#">Quem somos</a>
+                    <a class="linkFooter" href="#">Produtos</a>
+                    <a class="linkFooter" href="#">Contato</a>
+                    <a class="linkFooter" href="#">#Blog</a>
+                 </div>
+                <!-- Fim redes sociais  -->
+                <!-- Início direitos autorais  -->
+                 <div class="col-12">
+                    <p class="direitos">Todos os direitos reservados &copy | SunPet | 2024
+                    </p>
+                 </div>
+                <!-- Fim direitos autorais  -->
+            </div>
+        </div>
+      </footer>
+     <!-- Fim rodapé  --> 
+</body>
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./JS/menu.js"></script>
+</html>
